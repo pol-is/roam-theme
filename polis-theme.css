@@ -1,0 +1,57 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Space Mono", sans-serif;
+    font-size: 3em;
+}
+
+
+
+
+/* HIDE LOGO*/
+#roam-sidebar-logo {
+    display: none;
+}
+
+/* ROOT */
+
+:root {
+    --header-font: "Source Sans Pro", "Inter", sans-serif;
+    --body-font: "Source Sans Pro", "Inter", sans-serif;
+    
+    --bg-color: #FFFFFF;
+    --page-color: rgba(255, 255, 255, 0.95);
+    
+    --text-color: #60656F;
+    --icon-color: #5c7080; /* #5c7080 */
+    --bullet-color: rgba(0, 0, 0, 0.2);
+    
+    --page-shadow: 0px 8px 14px rgba(0, 0, 0, 0.05);
+    
+    --color-primary: #03a9f4;
+    --color-primary-contrast: #FFFFFF;
+    --color-secondary: 147, 100, 235;
+    /*--color-secondary: 255, 165, 0;*/
+    --color-secondary-contrast: #FFFFFF;
+}
+
+h1, h2, h3,  h4, h5, h6, h1 > a, h2 > a, h3 > a, h4 > a, .rm-title-textarea {
+    font-family: var(--header-font) !important;
+    color: var(--text-color) !important;
+}
+
+
+.roam-sidebar-container {
+  	border-right: 1px solid lightgrey;
+    top: 0px !important;
+    padding-top: 50px;
+    padding-right: 68px;
+    background: #FFF !important;
+    
+}
